@@ -1,0 +1,43 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:rgb(224, 207, 207);
+}
+
+h1{
+    font-size:24rem;
+}
+
+button{
+    padding:1rem 1.5rem;
+    margin:0 0.5rem;
+    border-radius:50px;
+    font-weight:bold;
+    border:2px solid black;
+}
+
+button:focus{
+    outline:none;
+    border:2px solid red;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+@media screen and (max-width:500px){
+
+    button{
+        padding:1rem 1rem;
+        margin:0 0.2rem;
+    }
+
+}
